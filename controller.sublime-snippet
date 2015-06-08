@@ -1,7 +1,13 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2}Controller = Em.${3:Array}Controller.extend({
-  // needs: [],
+import Ember from 'ember';
+
+export default Ember.Controller.extend({
+  // expected params
+  ${1:foo}: null,
+
+  // params
+  ${2:bar}: null,
 });
 
 ]]></content>

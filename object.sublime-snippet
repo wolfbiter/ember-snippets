@@ -1,17 +1,15 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:Object} = Em.Object.extend({
-  init: function() {
-    // Setup
-  },
+import Ember from 'ember';
 
-  ${3:method}: function(${4:value}) {
-    ${5}
-  }
+export default Ember.ObjectProxy.extend({
+  ${1:method}: function(${2:value}) {
+    ${3}
+  }.property()
 });
 
 ]]></content>
-    <description>Ember.Object.extend()</description>
-    <tabTrigger>object</tabTrigger>
+    <description>Ember.ObjectProxy.extend()</description>
+    <tabTrigger>objectProxy</tabTrigger>
     <scope>source.js</scope>
 </snippet>

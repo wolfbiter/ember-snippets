@@ -1,15 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:This}View = Em.View.extend({
-  tagName: 'div',
-  // classNames: [],
-  didInsertElement: function() {
-    ${3}
-  }
-});
-
+import ${1:Var} from '${2:path/to/var}';
 ]]></content>
-    <description>Ember.View.extend()</description>
-    <tabTrigger>view</tabTrigger>
+    <description>import Var from 'path/to/var';</description>
+    <tabTrigger>import</tabTrigger>
     <scope>source.js</scope>
 </snippet>

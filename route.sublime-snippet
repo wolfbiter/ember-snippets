@@ -1,15 +1,15 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:This}Route = Em.Route.extend({
-  // activate: function() {},
-  // deactivate: function() {},
-  // setupController: function(controller, model) {},
-  // renderTemplate: function() {},
-  // beforeModel: function() {},
-  // afterModel: function() {},
+import Ember from 'ember';
+
+export default Ember.Route.extend({
+
+  setupController: function(controller, model) {
+
+  },
   
   model: function() {
-      return ${3};
+  
   }
 });
 

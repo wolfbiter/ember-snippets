@@ -1,7 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:Model} = DS.Model.extend({
-  ${3:attr}: DS.attr('${4:string}')
+import Ember from 'ember';
+import DS from 'ember-data';
+
+export default DS.Model.extend({
+  ${1:attr}: DS.attr('${2:string}')
 });
 
 ]]></content>

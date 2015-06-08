@@ -1,12 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:attr}: function() {
-  var ${2:anotherAttribute} = this.get('${2}');
-  ${3}
-}.property('${2}')
+import RequireAttributes from 'linx/lib/require-attributes';
 
+RequireAttributes('${1:foo}')
 ]]></content>
-    <description>Ember.ComputedProperty</description>
-    <tabTrigger>emberProperty</tabTrigger>
+    <description>import RequireAttributes</description>
+    <tabTrigger>require-attributes</tabTrigger>
     <scope>source.js</scope>
 </snippet>

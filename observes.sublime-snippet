@@ -1,12 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1:method}: function() {
-  var ${2:anotherAttribute} = this.get('${2}');
-  ${3}
-}.observes('${2}')
-
+this._super.apply(this, arguments);
 ]]></content>
-    <description>Ember.Observable</description>
-    <tabTrigger>emberObserver</tabTrigger>
+    <description>this._super</description>
+    <tabTrigger>super</tabTrigger>
     <scope>source.js</scope>
 </snippet>

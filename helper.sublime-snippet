@@ -1,12 +1,8 @@
 <snippet>
     <content><![CDATA[
-Em.Handlebars.registerBoundHelper('${1:helperName}', function(${2:value}) {
-    
-  return ${3:value};
-});
-
+Ember.computed.${1:foo}('${2:bar}'),
 ]]></content>
-    <description>Ember.Handlebars.registerBoundHelper()</description>
-    <tabTrigger>helper</tabTrigger>
+    <description>foo: Ember.computed.foo('bar')</description>
+    <tabTrigger>computed</tabTrigger>
     <scope>source.js</scope>
 </snippet>

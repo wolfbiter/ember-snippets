@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-{{#view ${1:viewClass}}}
+(${1:foo}) => {
   ${2}
-{{/view}}
+}
 ]]></content>
-  <description>{{#view }} {{/view}}</description>
-  <tabTrigger>viewb</tabTrigger>
+  <description>(foo) => { }</description>
+  <tabTrigger>function</tabTrigger>
 </snippet>
